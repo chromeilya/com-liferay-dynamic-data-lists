@@ -33,7 +33,6 @@ import org.osgi.service.component.annotations.Reference;
 @Component(
 	immediate = true,
 	property = {
-		"javax.portlet.name=" + DDLPortletKeys.DYNAMIC_DATA_LISTS,
 		"mvc.command.name=deleteRecordSet"
 	},
 	service = MVCActionCommand.class
