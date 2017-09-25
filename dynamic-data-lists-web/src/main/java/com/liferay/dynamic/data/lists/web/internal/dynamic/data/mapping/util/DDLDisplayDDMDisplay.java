@@ -26,7 +26,7 @@ import org.osgi.service.component.annotations.Component;
  * @author Rafael Praxedes
  */
 @Component(
-	property = {"javax.portlet.name=" + DDLPortletKeys.DYNAMIC_DATA_LISTS_DISPLAY},
+	property = {"javax.portlet.name=com_netcracker_ddl_manager_portlet"},
 	service = DDMDisplay.class
 )
 public class DDLDisplayDDMDisplay extends DDLDDMDisplay {
@@ -43,7 +43,7 @@ public class DDLDisplayDDMDisplay extends DDLDDMDisplay {
 
 	@Override
 	public String getPortletId() {
-		return DDLPortletKeys.DYNAMIC_DATA_LISTS_DISPLAY;
+		return "com_netcracker_ddl_manager_portlet";
 	}
 
 }

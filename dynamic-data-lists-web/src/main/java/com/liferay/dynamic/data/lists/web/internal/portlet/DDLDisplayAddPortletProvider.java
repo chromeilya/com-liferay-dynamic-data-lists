@@ -50,7 +50,7 @@ public class DDLDisplayAddPortletProvider
 
 	@Override
 	public String getPortletName() {
-		return DDLPortletKeys.DYNAMIC_DATA_LISTS_DISPLAY;
+		return "com_netcracker_ddl_manager_portlet";
 	}
 
 	@Override

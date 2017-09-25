@@ -39,7 +39,7 @@ import org.osgi.service.component.annotations.Component;
 	immediate = true,
 	property = {
 		"javax.portlet.name=" + DDLPortletKeys.DYNAMIC_DATA_LISTS,
-		"javax.portlet.name=" + DDLPortletKeys.DYNAMIC_DATA_LISTS_DISPLAY,
+		"javax.portlet.name=com_netcracker_ddl_manager_portlet",
 		"mvc.command.name=updateRecordSet"
 	},
 	service = MVCActionCommand.class
